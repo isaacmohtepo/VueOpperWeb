@@ -52,9 +52,9 @@ a {
 }
 
 .logo .logo-iniciar {
-  width     : 277px;
-  height    : 136px;
-  margin-top: 50px;
+  width     : 230px;
+  height    : auto;
+  margin-top: 10px;
 }
 
 .texto-logo-iniciar {
@@ -102,7 +102,7 @@ a {
   border       : 2px solid #fff !important;
   box-sizing   : border-box !important;
   border-radius: 10px !important;
-  height       : 60px !important;
+  height       : 53px !important;
 }
 
 .form-login::placeholder {
@@ -161,7 +161,7 @@ a {
   background   : #e487fb !important;
   border-radius: 10px;
   width        : 100%;
-  height       : 60px;
+  height       : 53px;
   font-family  : "Archivo" !important;
   font-style   : normal !important;
   font-weight  : 700 !important;
@@ -189,7 +189,7 @@ a {
 
 .btn-panel {
   width        : 338px !important;
-  height       : 60px !important;
+  height       : 53px !important;
   background   : #e487fb !important;
   border-radius: 10px !important;
   margin-bottom: 20px;
@@ -213,7 +213,6 @@ a {
 
 .q-register-div {
   margin-top   : 45px;
-  margin-bottom: 72px;
 }
 
 .section-login-2 {
@@ -252,7 +251,7 @@ a {
   font-family   : "Roboto";
   font-style    : normal;
   font-weight   : 900;
-  font-size     : 80.1282px;
+  font-size     : 60.1282px;
   line-height   : 94px;
   text-align    : center;
   letter-spacing: 0.065em;
@@ -356,15 +355,16 @@ a {
 
 #tipo label {
   display: inline-block;
-  margin: 5px;
+  margin : 5px;
 }
 
 .input-group-addon {
   text-align: center;
 }
+
 #tipo {
-  display: flex;
-  align-items: center;
+  display        : flex;
+  align-items    : center;
   justify-content: center;
 }
 
@@ -411,7 +411,7 @@ input[type="radio"]:checked:after {
 
 .btn-register {
   width        : 100%;
-  height       : 60px;
+  height       : 53px;
   background   : #e487fb !important;
   border-radius: 10px;
   margin-top   : 20px;
@@ -813,7 +813,7 @@ ul {
 
 @media (max-width: 767px) {
   .section-login-1 {
-    height: 100%;
+    height    : 100%;
     /* The old syntax, deprecated, but still needed, prefixed, for Opera and WebKit-based browsers */
     background: -prefix-linear-gradient(to bottom, #CA38ED, #3E1149, #000000) !important;
 
