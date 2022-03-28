@@ -9,9 +9,12 @@
   },
   "dependencies": {
     "axios": "^0.26.1",
+    "bootstrap": "^5.1.3",
+    "bootstrap-vue": "^2.21.2",
+    "boxicons": "^2.1.2",
     "core-js": "^3.6.5",
     "sweetalert2": "^11.4.7",
-    "vue": "^3.0.0",
+    "vue": "^3.2.31",
     "vue-axios": "^3.4.0",
     "vue-router": "^4.0.12",
     "vue-select2": "^0.2.6",
