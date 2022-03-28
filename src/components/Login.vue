@@ -41,7 +41,11 @@
                   <i class='bx bxl-facebook icon-social'></i>
                 </div>
                 <div class="q-register-div">
-                  <p class="q-register">Quieres registrarte? <span ><a class="q-register-morado" href="/register.html">Registrate</a></span></p>
+                  <!-- Registrate</a></span></p> -->
+
+                <p class="q-register">Quieres registrarte? <span > <router-link to="/register">Registrate</router-link></span></p>
+
+
                 </div>
               </div>
             </div>

@@ -1,19 +1,18 @@
 <template>
-	
-	<div class="container-fluid">
+	<div class="container-fluid" style="background: #3e1149;">
 		<div class="row">
 			<div class="col-md-6 section-login-1">
 				<div>
-					<p class="logo-anime"> <img src="img/logo-icon.png" alt=""> anime<span class="logo-yabu">yabu</span></p>
+					<p class="logo-anime"> <img src="../assets/img/logo-icon.png" alt=""> anime<span class="logo-yabu">yabu</span></p>
 					<div>
-						<a href="/index.html"><i class='bx bx-arrow-to-left' ></i></a>
+						<router-link to="/login"><i class='bx bx-arrow-to-left' ></i></router-link>
 					</div>
 				</div>
 				<div class="logo-register-div">
 					<div class="row">
 						<div class="col-md-3"></div>
 						<div class="col-md-2">
-							<img class="logo-register" src="img/logo-register.png" alt="LOGO REGISRAR">
+							<img class="logo-register" src="../assets/img/logo-register.png" alt="LOGO REGISRAR">
 						</div>
 						<div class="col-md-4 div-register">
 							<p class="texto-logo-iniciar">ようこそ!</p>
@@ -30,30 +29,38 @@
 							<span class="radio">
 								<label>Tipo de persona: </label>
 								<label>
-									<input type="radio" name="opciones" value="multiples" id="multiples" checked>
+									<input type="radio" name="opciones" v-model="checked" v-on:click="tipoPersona(false)"  :value="true" >
 									<span> Natural</span> 
 								</label>
 
 								<label>
-									<input type="radio" name="opciones" value="individual" id="individual">
+									<input type="radio" name="opciones" v-model="checked" v-on:click="tipoPersona(true)" :value="false">
 									<span> Jurídica</span> 
 								</label>
 							</span>
 						</div>
 					</div>
 					<div class="row">
-						
+
 						<div class="col-md-12 formulario-imput">
-							<div class="imput-text " id="natural" style="display:;">
-								<div class="col-md-4">
+							<div class="imput-text "  >
+								<div class="col-md-4" v-if="checked === 'true'">
 									<label for="nombre" class="form-label">Nombre</label>
 									<input type="nombre" class="form-control form-login" id="nombre" aria-describedby="nombre" placeholder="usuario@">
 								</div>
 								<br>
-								<div class="col-md-4">
-									<label for="apellido" class="form-label">Apellido</label>
+								<div class="col-md-4"  v-if="checked === 'true'">
+									<label for="apellido"  class="form-label">Apellido</label>
 									<input type="apellido" class="form-control form-login" id="apellido" aria-describedby="apellido" placeholder="usuario@">
 								</div>
+
+
+
+
+
+
+
+								
 								<br>
 								<div class="col-md-4">
 									<label for="telefono" class="form-label">Teléfono</label>
@@ -80,10 +87,10 @@
 									<input type="password" class="form-control form-login" id="confi-contraseña" aria-describedby="confi-contraseña" placeholder="usuario@">
 									<button class="btn btn-register">Registrar</button>
 								</div>
-								
-								
+
+
 								<div class="register">
-									<p class="texto-register"><img src="img/line-register.png" alt="Linea"> Regístrate también con <img src="img/line-register.png" alt="Linea"></p>
+									<p class="texto-register"><img src="../assets/img/line-register.png" alt="Linea"> Regístrate también con <img src="../assets/img/line-register.png" alt="Linea"></p>
 								</div>
 								<div class="sociales">
 									<i class='bx bxl-instagram icon-social'></i>
@@ -91,57 +98,13 @@
 									<i class='bx bxl-facebook icon-social'></i>
 								</div>
 								<div class="q-register-div">
-									<p class="q-register">Ya estás registrado?<span ><a class="q-register-morado" href="/index.html">Acceder</a></span></p>
+
+									<p class="q-register">Ya estás registrado? <span > <router-link to="/login">Acceder</router-link></span></p>
 								</div>
 							</div>
 
 
-							<div class="imput-text " id="juridica" style="display: none;">
-								<div class="col-md-4">
-									<label for="nombre" class="form-label">Razón social</label>
-									<input type="nombre" class="form-control form-login" id="nombre" aria-describedby="nombre" placeholder="usuario@">
-								</div>
-								<br>
-								<div class="col-md-4">
-									<label for="apellido" class="form-label">NIT</label>
-									<input type="apellido" class="form-control form-login" id="apellido" aria-describedby="apellido" placeholder="usuario@">
-								</div>
-								<br>
-								<div class="col-md-4">
-									<label for="telefono" class="form-label">Teléfono</label>
-									<input type="telefono" class="form-control form-login" id="telefono" aria-describedby="telefono" placeholder="usuario@">
-								</div>
-								<br>
-								<div class="col-md-4">
-									<label for="name" class="form-label">Email</label>
-									<input type="name" class="form-control form-login" id="email" aria-describedby="name" placeholder="usuario@">
-								</div>
-								<br>
-								<div class="col-md-4">
-									<label for="contraseña" class="form-label">Contraseña</label>
-									<input type="password" class="form-control form-login" id="contraseña" aria-describedby="contraseña" placeholder="usuario@">
-								</div>
-								<br>
-								<div class="col-md-4">
-									<label for="confi-contraseña" class="form-label">Confirmar contraseña</label>
-									<input type="passowrd" class="form-control form-login" id="confi-contraseña" aria-describedby="confi-contraseña" placeholder="usuario@">
-									<button class="btn btn-register">Registrar</button>
-								</div>
-								
-								
-								<div class="register">
-									<p class="texto-register"><img src="img/line-register.png" alt="Linea"> Regístrate también con <img src="img/line-register.png" alt="Linea"></p>
-								</div>
-								<div class="sociales">
-									<i class='bx bxl-instagram icon-social'></i>
-									<i class='bx bxl-twitter icon-social'></i>
-									<i class='bx bxl-facebook icon-social'></i>
-								</div>
-								<div class="q-register-div">
-									<p class="q-register">Ya estás registrado?<span ><a class="q-register-morado" href="/index.html">Acceder</a></span></p>
-								</div>
-							</div>
-							
+					
 						</div>
 					</div>
 				</form>
@@ -152,19 +115,19 @@
 						<div>
 							<div class="carousel-inner">
 								<div class="carousel-item active">
-									<img class="personaje" src="img/personaje.png" alt="Personaje 1">
+									<img class="personaje" src="../assets/img/personaje.png" alt="Personaje 1">
 								</div>
 								<div class="carousel-item">
-									<img class="personaje-1" src="img/personaje-1.png"  alt="Personaje 2">
+									<img class="personaje-1" src="../assets/img/personaje-1.png"  alt="Personaje 2">
 								</div>
 								<div class="carousel-item">
-									<img  class="personaje-2" src="img/personaje-2.png"  alt="Personaje 3">
+									<img  class="personaje-2" src="../assets/img/personaje-2.png"  alt="Personaje 3">
 								</div>
 							</div>
 						</div>
-						<img class="circulo-personaje" src="img/circulo-personaje.png" alt="Circulo - personaje">
+						<img class="circulo-personaje" src="../assets/img/circulo-personaje.png" alt="Circulo - personaje">
 					</div>
-					
+
 					<div class="row">
 						<div class="col-md-2">
 
@@ -178,7 +141,7 @@
 							</div>
 						</div>
 						<div class="col-md-2">
-							
+
 						</div>
 						<div class="text-center">
 							<div class="carousel-indicators">
@@ -192,7 +155,27 @@
 			</div>
 		</div>
 	</div>
-</div>
-
-
 </template>
+<script type="text/javascript">
+export default {
+	name: 'App',
+	data: function () {
+		return {
+			checked:'true',
+		}
+	},
+	methods:{
+
+		tipoPersona (){
+
+			let checked = this.checked
+
+			alert(checked)
+
+		},
+
+
+
+	}
+}
+</script>
