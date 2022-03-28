@@ -356,10 +356,16 @@ a {
 
 #tipo label {
   display: inline-block;
+  margin: 5px;
 }
 
 .input-group-addon {
   text-align: center;
+}
+#tipo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .radio {
