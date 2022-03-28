@@ -1,0 +1,822 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+.logo-yabu {
+  font-family   : "Roboto";
+  font-style    : normal;
+  font-weight   : 900;
+  font-size     : 22px;
+  line-height   : 26px;
+  text-align    : center;
+  letter-spacing: 0.065em;
+  color         : #ca38ed;
+}
+
+::placeholder {
+  color: #D8D5D9 !important;
+}
+
+a {
+  text-decoration: none !important;
+  color          : #ffffff !important;
+}
+
+.bx-arrow-to-left {
+  font-size: 35px;
+  position : relative;
+  left     : 2rem;
+  top      : 2rem;
+}
+
+.logo-anime {
+  position      : relative;
+  font-family   : "Roboto";
+  font-style    : normal;
+  font-weight   : 900;
+  font-size     : 22px;
+  line-height   : 26px;
+  letter-spacing: 0.065em;
+  color         : #fff;
+  left          : 1rem;
+  top           : 1rem;
+}
+
+.section-login-1 {
+  background-color: black;
+  height          : auto;
+}
+
+.logo {
+  text-align: center;
+}
+
+.logo .logo-iniciar {
+  width     : 277px;
+  height    : 136px;
+  margin-top: 50px;
+}
+
+.texto-logo-iniciar {
+  font-style    : normal;
+  font-weight   : 900;
+  font-size     : 36.5385px;
+  line-height   : 55px;
+  text-align    : center;
+  letter-spacing: 0.065em;
+  font-family   : "Poppins", sans-serif;
+
+  color: #ffffff;
+}
+
+.texto-logo-segundario {
+  font-family   : "Roboto";
+  font-style    : italic;
+  font-weight   : 400;
+  font-size     : 16px;
+  line-height   : 19px;
+  text-align    : center;
+  letter-spacing: 0.065em;
+  color         : #ffffff;
+}
+
+.form-label {
+  font-family   : "Poppins";
+  font-style    : normal;
+  font-weight   : 400;
+  font-size     : 14px;
+  line-height   : 21px;
+  letter-spacing: -0.103101px;
+  color         : #ffffff;
+}
+
+.formulario-imput .imput-text {
+  display        : flex;
+  flex-direction : column;
+  justify-content: center;
+  align-items    : center;
+}
+
+.form-login {
+  background   : rgba(255, 255, 255, 0.47) !important;
+  border       : 2px solid #fff !important;
+  box-sizing   : border-box !important;
+  border-radius: 10px !important;
+  height       : 60px !important;
+}
+
+.form-login::placeholder {
+  color      : red;
+  font-weight: bold;
+}
+
+.text-olvido-contraseña {
+  font-family    : "Poppins";
+  font-style     : normal;
+  font-weight    : 400;
+  font-size      : 14px;
+  line-height    : 21px;
+  text-align     : center;
+  letter-spacing : -0.103101px;
+  color          : #e487fb;
+  text-decoration: none;
+}
+
+.olvido-contraseña {
+  text-align   : right;
+  margin-bottom: 20px;
+}
+
+.register {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.texto-register {
+  font-family   : "Poppins";
+  font-style    : normal;
+  font-weight   : 400;
+  font-size     : 14px;
+  line-height   : 21px;
+  text-align    : center;
+  letter-spacing: -0.103101px;
+
+  color: #ffffff;
+}
+
+.icon-social {
+  font-size: 30px;
+  color    : #ffffff;
+}
+
+.sociales .icon-social {
+  background   : rgba(255, 255, 255, 0.47);
+  border       : 2px solid #ffffff;
+  box-sizing   : border-box;
+  border-radius: 10px;
+  padding      : 5px;
+}
+
+.btn-acceder {
+  background   : #e487fb !important;
+  border-radius: 10px;
+  width        : 100%;
+  height       : 60px;
+  font-family  : "Archivo" !important;
+  font-style   : normal !important;
+  font-weight  : 700 !important;
+  font-size    : 16px !important;
+  line-height  : 17px !important;
+  text-align   : center !important;
+  color        : #3e1149;
+}
+
+.btn-general {
+  background   : #e487fb !important;
+  border-radius: 10px;
+  width        : 100%;
+  height       : 60px;
+  font-family  : "Archivo" !important;
+  font-style   : normal !important;
+  font-weight  : 700 !important;
+  font-size    : 16px !important;
+  line-height  : 17px !important;
+  text-align   : center !important;
+  color        : #3e1149 !important;
+  margin-top   : 20px;
+  margin-bottom: 20px;
+}
+
+.btn-panel {
+  width        : 338px !important;
+  height       : 60px !important;
+  background   : #e487fb !important;
+  border-radius: 10px !important;
+  margin-bottom: 20px;
+}
+
+.q-register {
+  font-family   : "Roboto";
+  font-style    : normal;
+  font-weight   : 400;
+  font-size     : 16px;
+  line-height   : 19px;
+  text-align    : center;
+  letter-spacing: 0.065em;
+
+  color: #ffffff;
+}
+
+.q-register-morado {
+  color: #e487fb !important;
+}
+
+.q-register-div {
+  margin-top   : 45px;
+  margin-bottom: 72px;
+}
+
+.section-login-2 {
+  background : #3e1149;
+  display    : flex;
+  align-items: center;
+  height     : 100vh;
+
+}
+
+.circulo-personaje {
+  max-width: 40%;
+
+}
+
+.personaje {
+  max-width : 45%;
+  margin-top: 30px;
+}
+
+.personaje-1 {
+  margin-top: 30px;
+  max-width : 35%;
+}
+
+.personaje-2 {
+  margin-top: 30px;
+  max-width : 35%;
+}
+
+.personaje-div {
+  text-align: center;
+}
+
+.text-logo-principal {
+  font-family   : "Roboto";
+  font-style    : normal;
+  font-weight   : 900;
+  font-size     : 80.1282px;
+  line-height   : 94px;
+  text-align    : center;
+  letter-spacing: 0.065em;
+  color         : #ffffff;
+  margin-top    : 103px;
+}
+
+.text-logo-principal-yabu {
+  color: #ca38ed;
+}
+
+.parrafo-login {
+  font-family: "Roboto";
+  font-style : normal;
+  font-weight: 400;
+  font-size  : 18px;
+  line-height: 21px;
+  text-align : center;
+
+  color: #ffffff;
+}
+
+.bx-minus {
+  background   : rgba(196, 196, 196, 0.48);
+  border-radius: 53px;
+  width        : 39px;
+  height       : 6px;
+}
+
+.carousel-inner {
+  position     : absolute !important;
+  display      : flex;
+  justify-items: center;
+  align-content: center;
+}
+
+.carousel-indicators {
+  position  : relative !important;
+  margin-top: 20px;
+}
+
+@media (max-width: 1200px) {
+  .text-logo-principal {
+    font-size: 56.1282px;
+  }
+}
+
+@media (max-width: 992px) {
+  .text-logo-principal {
+    font-size: 46.1282px;
+  }
+}
+
+@media (max-width: 767px) {
+  .section-login-2 {
+    display: none !important;
+  }
+
+  .section-login-2 {
+    width: 100%;
+  }
+}
+
+/* Register  */
+
+.logo-register {
+  width : 145px;
+  height: 149px;
+}
+
+.logo-register-div {
+  text-align: center;
+}
+
+.texto-bie {
+  display: flex;
+}
+
+.div-register {
+  margin-top: 41px !important;
+}
+
+.tipo-persona {
+  font-family: "Poppins";
+  font-style : normal;
+  font-weight: 400;
+  font-size  : 14px;
+  line-height: 21px;
+  /* identical to box height */
+
+  letter-spacing: -0.103101px;
+
+  color: #ffffff;
+}
+
+.div-tipo-persona {
+  display        : inline-block;
+  align-items    : center;
+  justify-content: center;
+}
+
+#tipo label {
+  display: inline-block;
+}
+
+.input-group-addon {
+  text-align: center;
+}
+
+.radio {
+  color: #fff;
+}
+
+input[type="radio"]:after {
+  width           : 15px;
+  height          : 15px;
+  border-radius   : 15px;
+  top             : -2px;
+  left            : -1px;
+  position        : relative;
+  background-color: #d1d3d1;
+  content         : "";
+  display         : inline-block;
+  visibility      : visible;
+  border          : 2px solid white;
+}
+
+input[type="radio"]:checked:after {
+  width           : 15px;
+  height          : 15px;
+  border-radius   : 15px;
+  top             : -2px;
+  left            : -1px;
+  position        : relative;
+  background-color: #ca38ed;
+  content         : "";
+  display         : inline-block;
+  visibility      : visible;
+  border          : 2px solid white;
+}
+
+.carousel-indicators .active {
+  width : 30px !important;
+  height: 3px !important;
+}
+
+.carousel {
+  position: fixed !important;
+}
+
+.btn-register {
+  width        : 100%;
+  height       : 60px;
+  background   : #e487fb !important;
+  border-radius: 10px;
+  margin-top   : 20px;
+  font-family  : "Archivo";
+  font-style   : normal !important;
+  font-weight  : 700 !important;
+
+  font-size: 16px !important;
+
+  line-height: 17px !important;
+
+  text-align: center !important;
+
+  color: #3e1149 !important;
+}
+
+/* Panel */
+
+.sidebar {
+  position  : fixed;
+  left      : 0;
+  top       : 0;
+  height    : 100%;
+  width     : 78px;
+  background: #3e1149;
+  padding   : 6px 14px;
+  z-index   : 99;
+  transition: all 0.5s ease;
+}
+
+
+.sidebar.open {
+  width: 250px;
+}
+
+.sidebar .logo-details {
+  height     : 60px;
+  display    : flex;
+  align-items: center;
+  position   : relative;
+}
+
+.sidebar .logo-details .icon {
+  opacity   : 0;
+  transition: all 0.5s ease;
+}
+
+.sidebar .logo-details .logo_name {
+  color      : #fff;
+  font-size  : 20px;
+  font-weight: 600;
+  opacity    : 0;
+  transition : all 0.5s ease;
+}
+
+.sidebar.open .logo-details .icon,
+.sidebar.open .logo-details .logo_name {
+  opacity: 1;
+}
+
+.sidebar .logo-details #btn {
+  position  : absolute;
+  top       : 50%;
+  right     : 0;
+  transform : translateY(-50%);
+  font-size : 22px;
+  transition: all 0.4s ease;
+  font-size : 23px;
+  text-align: center;
+  cursor    : pointer;
+  transition: all 0.5s ease;
+}
+
+.sidebar.open .logo-details #btn {
+  text-align: right;
+}
+
+.sidebar i {
+  color      : #fff;
+  height     : 60px;
+  min-width  : 50px;
+  font-size  : 28px;
+  text-align : center;
+  line-height: 60px;
+}
+
+.sidebar .nav-list {
+  margin-top: 20px;
+  height    : 100%;
+}
+
+.sidebar li {
+  position  : relative;
+  margin    : 8px 0;
+  list-style: none;
+}
+
+.sidebar li .tooltip {
+  position      : absolute;
+  top           : -20px;
+  left          : calc(100% + 15px);
+  z-index       : 3;
+  background    : #fff;
+  box-shadow    : 0 5px 10px rgba(0, 0, 0, 0.3);
+  padding       : 6px 12px;
+  border-radius : 4px;
+  font-size     : 15px;
+  font-weight   : 400;
+  opacity       : 0;
+  white-space   : nowrap;
+  pointer-events: none;
+  transition    : 0s;
+}
+
+.sidebar li:hover .tooltip {
+  opacity       : 1;
+  pointer-events: auto;
+  transition    : all 0.4s ease;
+  top           : 50%;
+  transform     : translateY(-50%);
+}
+
+.sidebar.open li .tooltip {
+  display: none;
+}
+
+.sidebar input {
+  font-size    : 15px;
+  color        : #fff;
+  font-weight  : 400;
+  outline      : none;
+  height       : 50px;
+  width        : 100%;
+  width        : 50px;
+  border       : none;
+  border-radius: 12px;
+  transition   : all 0.5s ease;
+  background   : #1d1b31;
+}
+
+.sidebar.open input {
+  padding: 0 20px 0 50px;
+  width  : 100%;
+}
+
+.sidebar li a {
+  display        : flex;
+  height         : 100%;
+  width          : 100%;
+  border-radius  : 12px;
+  align-items    : center;
+  text-decoration: none;
+  transition     : all 0.4s ease;
+  background     : #e487fb1c;
+}
+
+.sidebar li a:hover {
+  background: #fff;
+}
+
+.sidebar li a .links_name {
+  color         : #fff;
+  font-size     : 15px;
+  font-weight   : 400;
+  white-space   : nowrap;
+  opacity       : 0;
+  pointer-events: none;
+  transition    : 0.4s;
+}
+
+.sidebar.open li a .links_name {
+  opacity       : 1;
+  pointer-events: auto;
+}
+
+.sidebar li a:hover .links_name,
+.sidebar li a:hover i {
+  transition: all 0.5s ease;
+  color     : #11101d;
+}
+
+.sidebar li i {
+  height       : 50px;
+  line-height  : 50px;
+  font-size    : 18px;
+  border-radius: 12px;
+}
+
+.sidebar li.profile {
+  position  : fixed;
+  height    : 60px;
+  width     : 78px;
+  left      : 0;
+  bottom    : -8px;
+  padding   : 10px 14px;
+  background: #1d1b31;
+  transition: all 0.5s ease;
+  overflow  : hidden;
+}
+
+.sidebar.open li.profile {
+  width: 250px;
+}
+
+.sidebar li .profile-details {
+  display    : flex;
+  align-items: center;
+  flex-wrap  : nowrap;
+}
+
+.sidebar li img {
+  height       : 45px;
+  width        : 45px;
+  object-fit   : cover;
+  border-radius: 6px;
+  margin-right : 10px;
+}
+
+.home-section {
+  position  : relative;
+  background: #000000;
+  min-height: 100vh;
+  top       : 0;
+  left      : 78px;
+  width     : calc(100% - 78px);
+  transition: all 0.5s ease;
+  z-index   : 2;
+}
+
+.sidebar.open~.home-section {
+  left : 250px;
+  width: calc(100% - 250px);
+}
+
+.home-title {
+  margin-top   : 100px;
+  margin-bottom: 20px;
+}
+
+.contenido {
+
+  margin-top: 60px !important;
+
+}
+
+.ctgoria {
+  background-color: transparent !important;
+}
+
+.ctgoria:hover {
+  color: #fff !important;
+}
+
+ol,
+ul {
+  padding-left: 0rem !important;
+}
+
+@media (max-width: 420px) {
+  .sidebar li .tooltip {
+    display: none;
+  }
+}
+
+@media(max-width: 767px) {
+  .home-section {
+
+    width: calc(100% - 78px);
+
+  }
+
+  .sidebar.open~.home-section {
+    width: calc(100% - 78px);
+    left : 78px;
+  }
+
+  .btn-panel {
+    width: 100% !important;
+  }
+}
+
+.text-panel-opc {
+  font-family: "Poppins";
+  font-style : normal;
+  font-weight: 500;
+  font-size  : 18px;
+  line-height: 27px;
+
+  letter-spacing: -0.103101px;
+
+  color: #ffffff;
+}
+
+.bienv-user {
+  font-family: "Poppins";
+  font-style : normal;
+  font-weight: 500;
+  font-size  : 36px;
+  line-height: 54px;
+  /* identical to box height */
+
+  letter-spacing: -0.103101px;
+
+  color: #ffffff;
+
+  margin-bottom: 70px;
+}
+
+.cerrar-ses {
+  margin-top: 30px !important;
+}
+
+.bx-chevrons-left {
+  left         : 24px;
+  position     : relative;
+  top          : 4px;
+  background   : #3e1149;
+  border-radius: 100%;
+}
+
+/* Categoria */
+
+.card-categoria {
+  padding         : 40px;
+  width           : 100%;
+  background-color: #3e1149;
+  color           : #fff;
+  border-radius   : 5px;
+}
+
+.card-categoria p {
+  display        : flex;
+  align-items    : center;
+  justify-content: center;
+}
+
+.row .card-categoria {
+  margin: 8px;
+}
+
+.edi-boton {
+  position       : relative;
+  top            : 18px;
+  text-decoration: none;
+  font-family    : "Poppins";
+  font-style     : normal;
+  font-weight    : 400;
+  font-size      : 14px;
+  line-height    : 21px;
+  letter-spacing : -0.103101px;
+  color          : #ffffff;
+}
+
+.edi-boton a:hover {
+  color: #ca38ed;
+}
+
+.cate-cent {
+  display        : flex;
+  align-items    : center;
+  justify-content: center;
+}
+
+.titulo-categoria {
+  font-family: "Poppins";
+  font-style : normal;
+  font-weight: 500;
+  font-size  : 36px;
+  line-height: 54px;
+  /* identical to box height */
+
+  letter-spacing: -0.103101px;
+
+  color: #ffffff;
+}
+
+.titulo-card-categoria {
+  font-family: "Poppins";
+  font-style : normal;
+  font-weight: 600;
+  font-size  : 24px;
+  line-height: 36px;
+  /* identical to box height */
+
+  display       : flex;
+  align-items   : center;
+  text-align    : center;
+  letter-spacing: -0.103101px;
+
+  color: #ffffff;
+}
+
+/* Actualizar categoria */
+
+.div-nom-cate {
+  margin-bottom: 40px !important;
+}
+
+
+@media (max-width: 767px) {
+  .section-login-1 {
+    height: 100%;
+    /* The old syntax, deprecated, but still needed, prefixed, for Opera and WebKit-based browsers */
+    background: -prefix-linear-gradient(to bottom, #CA38ED, #3E1149, #000000) !important;
+
+    /* The new syntax needed by standard-compliant browsers (IE 10 and Firefox 10 onwards), without prefix */
+    background: linear-gradient(to bottom, #CA38ED, #3E1149, #000000) !important;
+
+  }
+
+  .logo-anime {
+    display: none;
+  }
+}
