@@ -29,38 +29,49 @@
 							<span class="radio">
 								<label>Tipo de persona: </label>
 								<label>
-									<input type="radio" name="opciones" v-model="checked" v-on:click="tipoPersona(false)"  :value="true" >
+									<input type="radio" name="opciones" v-model="checked" v-on:click="tipoPersona()"  :value="1" >
 									<span> Natural</span> 
 								</label>
 
 								<label>
-									<input type="radio" name="opciones" v-model="checked" v-on:click="tipoPersona(true)" :value="false">
+									<input type="radio" name="opciones" v-model="checked" v-on:click="tipoPersona()" :value="2">
 									<span> Jurídica</span> 
 								</label>
 							</span>
 						</div>
+
+
+
 					</div>
+
+
 					<div class="row">
 
 						<div class="col-md-12 formulario-imput">
 							<div class="imput-text "  >
-								<div class="col-md-4" v-if="checked === 'true'">
+								<div class="col-md-4" v-if="checked == '1'">
 									<label for="nombre" class="form-label">Nombre</label>
 									<input type="nombre" class="form-control form-login" id="nombre" aria-describedby="nombre" placeholder="usuario@">
 								</div>
 								<br>
-								<div class="col-md-4"  v-if="checked === 'true'">
+								<div class="col-md-4"  v-if="checked =='1'">
 									<label for="apellido"  class="form-label">Apellido</label>
 									<input type="apellido" class="form-control form-login" id="apellido" aria-describedby="apellido" placeholder="usuario@">
 								</div>
 
 
+								<div class="col-md-4" v-if="checked == '2'">
+									<label for="nombre" class="form-label">Razón social</label>
+									<input type="nombre" class="form-control form-login" id="nombre" aria-describedby="nombre" placeholder="usuario@">
+								</div>
+								<br>
+								<div class="col-md-4" v-if="checked == '2'">
+									<label for="apellido" class="form-label">NIT</label>
+									<input type="apellido" class="form-control form-login" id="apellido" aria-describedby="apellido" placeholder="usuario@">
+								</div>
 
 
 
-
-
-								
 								<br>
 								<div class="col-md-4">
 									<label for="telefono" class="form-label">Teléfono</label>
@@ -104,7 +115,7 @@
 							</div>
 
 
-					
+
 						</div>
 					</div>
 				</form>
@@ -159,23 +170,16 @@
 <script type="text/javascript">
 export default {
 	name: 'App',
-	data: function () {
+	data () {
 		return {
-			checked:'true',
+			checked: '1'
 		}
 	},
 	methods:{
-
 		tipoPersona (){
-
-			let checked = this.checked
-
-			alert(checked)
-
+			var	checked = this.checked;
+			return checked
 		},
-
-
-
 	}
 }
 </script>
