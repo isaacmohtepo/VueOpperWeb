@@ -14,25 +14,28 @@
 				</a>
 			</li>
 			<li>
-				<a href="/categorias">
+				<router-link to="/categorias">
+			
 					<i class="bx bx-list-ul"></i>
 					<span class="links_name">Ver todas</span>
-				</a>
+					</router-link>
+				
 				<span class="tooltip">Ver todas</span>
 			</li>
 			<li>
-				<a href="/crear-categoria">
+				<router-link to="/crear-categoria">
+				
 					<i class="bx bx-news"></i>
 					<span class="links_name">Crear</span>
-				</a>
+				</router-link>
 				<span class="tooltip">Crear</span>
 			</li>
 
 			<li class="cerrar-ses">
-				<a href="#">
+				<router-link to="#">
 					<i class="bx bxs-log-out"></i>
 					<span class="links_name">Cerrar sesión</span>
-				</a>
+				</router-link>
 				<span class="tooltip">Cerrar sesión</span>
 			</li>
 		</ul>

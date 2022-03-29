@@ -13,40 +13,40 @@
                 <div class="col-md-4 cate-cent">
                     <div class="card-categoria">
                         <p class="titulo-card-categoria">ACCIÓN</p>
-                        <div class="edi-boton d-flex justify-content-end"><a href="/actualizar-categoria">Editar</a></div>
+                        <div class="edi-boton d-flex justify-content-end"><router-link to="/actualizar-categoria">Editar</router-link></div>
                     </div>
                 </div>
                 <div class="col-md-4 cate-cent">
                     <div class="card-categoria">
                         <p class="titulo-card-categoria">AVENTURA</p>
-                        <div class="edi-boton d-flex justify-content-end "><a href="/actualizar-categoria">Editar</a></div>
+                        <div class="edi-boton d-flex justify-content-end "><router-link to="/actualizar-categoria">Editar</router-link></div>
                     </div>
                 </div>
                 <div class="col-md-4 cate-cent">
                     <div class="card-categoria">
                       <p class="titulo-card-categoria">COMEDIA</p>
-                        <div class="edi-boton d-flex justify-content-end "><a href="/actualizar-categoria">Editar</a></div>
+                        <div class="edi-boton d-flex justify-content-end "><router-link to="/actualizar-categoria">Editar</router-link></div>
                     </div>
                 </div>
 
                 <div class="col-md-4 cate-cent">
                     <div class="card-categoria">
                       <p class="titulo-card-categoria">TERROR</p>
-                        <div class="edi-boton d-flex justify-content-end "><a href="/actualizar-categoria">Editar</a></div>
+                        <div class="edi-boton d-flex justify-content-end "><router-link to="/actualizar-categoria">Editar</router-link></div>
                     </div>
                 </div>
 
                 <div class="col-md-4 cate-cent">
                     <div class="card-categoria">
                       <p class="titulo-card-categoria" >ROMANCE</p>
-                        <div class="edi-boton d-flex justify-content-end "><a href="/actualizar-categoria">Editar</a></div>
+                        <div class="edi-boton d-flex justify-content-end "><router-link to="/actualizar-categoria">Editar</router-link></div>
                     </div>
                 </div>
 
                 <div class="col-md-4 cate-cent">
                     <div class="card-categoria">
                       <p class="titulo-card-categoria">MISTERIO</p>
-                        <div class="edi-boton d-flex justify-content-end "><a href="/actualizar-categoria">Editar</a></div>
+                        <div class="edi-boton d-flex justify-content-end "><router-link to="/actualizar-categoria">Editar</router-link></div>
                     </div>
                 </div>
 
