@@ -22,14 +22,14 @@
           <p class="texto-logo-iniciar">ひさしぶり!</p>
           <p class="texto-logo-segundario">¡Hola, te extrañamos!</p>
         </div>
-        <form>
+        <form @submit="checkForm">
           <div class="row">
             <div class="col-md-12 formulario-imput">
               <div class="imput-text">
                 <div class="col-md-4">
                   <label for="email" class="form-label">Email</label>
                   <input
-                    type="email"
+                    type="email" v-model="email"
                     class="form-control form-login"
                     id="email"
                     aria-describedby="email"
@@ -44,7 +44,7 @@
                       ><i class="iconMostrar bx bx-show"></i
                     ></a>
                   </div>
-                  <input
+                  <input v-model="password"
                     type="password"
                     class="form-control form-login"
                     id="contraseña"
@@ -57,7 +57,7 @@
                     >
                   </div>
                   <div>
-                    <button v-on:click="validarCampos()" class="btn btn-acceder">Acceder</button>
+                    <button type="submit" class="btn btn-acceder">Acceder</button>
                   </div>
                 </div>
                 <div class="register">
@@ -111,30 +111,30 @@ export default {
     };
   },
   methods: {
-    
-
-
-
-      validarCampos() {
+      checkForm: function() {
+       
         const Swal = require('sweetalert2')
-        if (this.email == "" || this.password == "") {
-          Swal({
-            title: "Error",
-            text: "Por favor, llena todos los campos",
-            icon: "error",
-            button: "Aceptar",
-          });
-        } else {
-          Swal({
-            title: "Bienvenido",
-            text: "Has iniciado sesión correctamente",
-            icon: "success",
-            button: "Aceptar",
-          });
+        Swal.fire({
+          showConfirmButton: true,
+          timer: 20000
+        })
 
+        if (this.email == '123@gmail.com' && this.password == '123') {
+
+          this.$router.push('/')
+          Swal.fire(
+            'Correcto!',
+            'Bienvenido',
+            'success'
+          )
+        } else {
+          Swal.fire(
+            'Error!',
+            'Usuario o contraseña incorrectos',
+            'error'
+          )
         }
       },
-
     mostrarPassword() {
       var password = document.getElementById("contraseña");
       var icon = document.getElementsByClassName("iconMostrar")[0];
