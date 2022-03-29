@@ -116,15 +116,16 @@ export default {
 
 
       validarCampos() {
+        const Swal = require('sweetalert2')
         if (this.email == "" || this.password == "") {
-          this.swal({
+          Swal({
             title: "Error",
             text: "Por favor, llena todos los campos",
             icon: "error",
             button: "Aceptar",
           });
         } else {
-          this.swal({
+          Swal({
             title: "Bienvenido",
             text: "Has iniciado sesión correctamente",
             icon: "success",
