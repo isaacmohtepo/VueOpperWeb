@@ -1,6 +1,6 @@
 
 <template>
-    <Sider/>
+    <Sider />
       <section class="home-section">
         <div class="container">
             <div class="row">
