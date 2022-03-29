@@ -144,7 +144,7 @@
 
 
 
-<script type="text/javascript">
+<script>
     import SectionRight from '@/components/SectionRight.vue'
     export default {
         name: 'App',
