@@ -219,8 +219,13 @@ a {
   background : #3e1149;
   display    : flex;
   align-items: center;
+  justify-content: center;
   height     : 100vh;
 
+}
+
+.sociales .bx{
+  margin: 5px;
 }
 
 .circulo-personaje {
