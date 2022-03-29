@@ -78,7 +78,7 @@
                                     <input type="telefono" class="form-control form-login" id="telefono"
                                         aria-describedby="telefono">
                                 </div>
-                                <div class="col-md-4 mb-md-3">
+                                <div class="col-md-4 mb-md-3" v-if="checked == '1'">
                                     <label for="name" class="form-label">Número de identificación</label>
                                     <input type="name" class="form-control form-login" id="numero-identificacion"
                                         aria-describedby="name">
