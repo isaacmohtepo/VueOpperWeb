@@ -43,4 +43,4 @@
 	
 </template>
 
-
+<script src="../assets/service/custom.js"></script>
