@@ -6,13 +6,6 @@ import Categorias from "@/components/Categorias.vue";
 import CrearCategoria from "@/components/CrearCategoria.vue";
 import ActualizarCategoria from "@/components/ActualizarCategoria.vue";
 
-
-
-
-
-
-
-
 const routes = [
 {
   path: "/",

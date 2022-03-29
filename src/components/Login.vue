@@ -57,12 +57,4 @@
 </div>
 </template>
 
-<script>
-import SectionRight from '@/components/SectionRight.vue'
-export default {
-  name: 'App',
-   components: {
-    SectionRight
-  }
-}
-</script>
+<script type="text/javascript" src="../assets/service/login.js"></script>
