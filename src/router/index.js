@@ -2,6 +2,7 @@ import { createWebHistory, createRouter } from "vue-router";
 import Login from "@/components/Login.vue";
 import Register from "@/components/Register.vue";
 import Panel from "@/components/Panel.vue";
+import Categorias from "@/components/Categorias.vue";
 
 
 
@@ -11,12 +12,10 @@ import Panel from "@/components/Panel.vue";
 const routes = [
 {
   path: "/",
-  name: "login",
   component: Login,
 },
 {
   path: "/login",
-  name: "login",
   component: Login,
 },
 {
@@ -28,6 +27,11 @@ const routes = [
   path: "/panel",
   name: "panel",
   component: Panel,
+},
+{
+  path: "/categorias",
+  name: "categorias",
+  component: Categorias,
 },
 
 ];

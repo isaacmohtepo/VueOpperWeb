@@ -12,6 +12,9 @@
   letter-spacing: 0.065em;
   color         : #ca38ed;
 }
+*::-webkit-scrollbar {
+  display: none !important;
+}
 
 ::placeholder {
   color: #D8D5D9 !important;
@@ -227,6 +230,8 @@ a {
 .sociales .bx{
   margin: 5px;
 }
+
+
 
 .circulo-personaje {
   max-width: 40%;

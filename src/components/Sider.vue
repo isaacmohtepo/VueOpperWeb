@@ -1,7 +1,7 @@
 <template>
 	<div class="sidebar">
 		<div class="logo-details">
-			<img src="img/logo-icon.png" alt="icono - logo " />
+			<img src="../assets/img/logo-icon.png" alt="icono - logo " />
 			<div class="logo_name" id="btn">
 				anime<span class="logo-yabu">yabu</span>
 				<i class="bx bx-chevrons-left"></i>

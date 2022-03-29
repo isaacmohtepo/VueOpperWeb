@@ -52,18 +52,17 @@
           </div>
         </form>
       </div>
-    <SectionLeft />
+    <SectionRight />
   </div>
 </div>
 </template>
 
-
 <script>
-import SectionLeft from '@/components/SectionLeft.vue'
+import SectionRight from '@/components/SectionRight.vue'
 export default {
   name: 'App',
    components: {
-    SectionLeft
+    SectionRight
   }
 }
 </script>
