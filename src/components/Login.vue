@@ -24,7 +24,11 @@
                 <br>
                 <div class="col-md-4">
                   <label for="password" class="form-label">Contraseña</label>
-                  <input type="password" class="form-control form-login" id="Contraseña" aria-describedby="Contraseña" placeholder="• • • • • • •">
+                     <div class="iconCheck">
+                                       <a v-on:click="mostrarPassword	" href="#pass"><i class='iconMostrar bx bx-show' ></i></a>
+                                    </div>
+              <input type="password" class="form-control form-login" id="contraseña"
+                                        aria-describedby="contraseña" placeholder="• • • • • • •">
                   <div class="olvido-contraseña">
                     <a class="text-olvido-contraseña" href="">¿Olvido la contraseña?</a>
                   </div>
@@ -63,6 +67,21 @@ export default {
   name: 'App',
    components: {
     SectionRight
+  },
+  methods: {
+     mostrarPassword() {
+                var password = document.getElementById("contraseña");
+                var icon = document.getElementsByClassName("iconMostrar")[0];
+                if (password.type === "password") {
+                    password.type = "text";
+					icon.classList.remove("bx-show");
+                    icon.classList.add("bx-hide");
+					
+                } else {
+                    password.type = "password";
+                    icon.classList.add("bx-show");
+                }
+            },
   }
 }
 </script>
