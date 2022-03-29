@@ -92,7 +92,9 @@ a {
   letter-spacing: -0.103101px;
   color         : #ffffff;
 }
-
+.formulario-imput{
+  margin-top: 20px;
+}
 .formulario-imput .imput-text {
   display        : flex;
   flex-direction : column;
@@ -253,6 +255,23 @@ a {
   max-width : 35%;
 }
 
+.iconCheck {
+  position: relative;
+}
+
+.bx-show {
+  position: absolute;
+  top: 18px;
+  right: 10px;
+  color: #BCB1BF;
+}
+
+.bx-hide {
+  position: absolute;
+  top: 18px;
+  right: 10px;
+  color: #BCB1BF;
+}
 .personaje-div {
   text-align: center;
 }
@@ -266,7 +285,7 @@ a {
   text-align    : center;
   letter-spacing: 0.065em;
   color         : #ffffff;
-  margin-top    : 70px;
+  margin-top    : 74px;
 }
 
 .text-logo-principal-yabu {

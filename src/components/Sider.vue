@@ -14,14 +14,14 @@
 				</a>
 			</li>
 			<li>
-				<a href="/categoria.html">
+				<a href="/categorias">
 					<i class="bx bx-list-ul"></i>
 					<span class="links_name">Ver todas</span>
 				</a>
 				<span class="tooltip">Ver todas</span>
 			</li>
 			<li>
-				<a href="/crear-categoria.html">
+				<a href="/crear-categoria">
 					<i class="bx bx-news"></i>
 					<span class="links_name">Crear</span>
 				</a>
